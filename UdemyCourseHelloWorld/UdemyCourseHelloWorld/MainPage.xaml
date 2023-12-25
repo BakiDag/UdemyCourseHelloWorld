@@ -3,14 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UdemyCourseHelloWorld.MainPage">
 
-    <StackLayout BackgroundColor="Blue"
+    <StackLayout BackgroundColor="#27374D"
                  Margin="10, 20">
         <Label x:Name="greetingLabel" 
-               Text="Hello Xamarin wold!"/>
+               Text="Hello Xamarin wold!" 
+               TextColor="WhiteSmoke"/>
         <Entry x:Name="nameEntry"
-               Placeholder="Write your name" />
+               Placeholder="Write your name"
+               TextColor="WhiteSmoke"/>
         <Button Text="Say hello"
-                Clicked="Button_Clicked"/>
+                Clicked="Button_Clicked"
+                BackgroundColor="#DDE6ED"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>
